@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+body{
+    background-color: rgb(235, 235, 235);
+    font-family: 'Zen Dots', cursive;
+}
+.container>h1{
+    text-align: center;
+}
+.clock{
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    height: 50vh;
+    border-radius: 100%;
+    border: 2px solid;
+    justify-content: center;
+    align-items: center;
+}
+.clocks{
+    font-size: 40px;
+    padding: 5px;
+
+}
+.control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls{
+    font-family: 'Zen Dots', cursive; ;
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid;
+    margin: 5px;
+    width: 200px;
+
+}
